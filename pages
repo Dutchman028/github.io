@@ -1,0 +1,63 @@
+
+.pages{
+    float: right;
+    width:70%;
+}
+#top{
+    height: 500px;
+    width: 100%;
+}
+.top_pic{
+    float: right;
+}
+
+.profile{
+    display:none;
+    padding:30px 100px 100px 100px;
+}
+.profile-list{
+    list-style: none;
+    padding-right: 20px;
+    padding-top:30px;
+}
+.item{
+    font-size:1.2em;
+    margin-right: 20px;
+}
+
+.works{
+    display:none;
+}
+.work{
+    position:relative;
+    bottom:40px;
+    float:left;
+    margin:10px;
+}
+.work-item{
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    vertical-align: bottom;
+
+    transition:1s;
+    -webkit-transition: 0.5s;
+}
+.work-item:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+.mail{
+    display:none;
+    position: relative;
+    padding:100px;
+}
+
+.mail h1{
+    text-decoration:none;
+    color:black;
+}
+
+
+
+
